@@ -1,0 +1,94 @@
+/*Обнулення стилів*/
+@import "./components/_nullstyle.scss";
+@import "./components/_resolutions.scss";
+
+/*Стилі секцій*/
+@import "./components/_hero.scss";
+@import "./components/_footer.scss";
+@import "./components/_about.scss";
+@import "./components/_works.scss";
+@import "./components/_videoform.scss";
+
+@import "./components/langswitcher.scss";
+
+@import "./components/_modalsearch.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*-VARIABLES-*/
+
+/*fonts*/
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+
+
+/*END OF VARIABLES*/
+
+p {
+    font-family: $roboto-font;
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    font-size: 15px;
+    line-height: 24px;
+    &::selection{
+        background-color: #e3b358 !important;
+        color: #000000;
+    }
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: $montserrat-font;
+    color: #000000;
+    &::selection{
+        background-color: #e3b358 !important;
+        color: #000000;
+    }
+}
+
+a {
+    font-family: $montserrat-font;
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+    &::selection{
+        background-color: #e3b358 !important;
+        color: #000000;
+    }
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+span {
+    &::selection{
+        background-color: #e3b358 !important;
+        color: #000000;
+    }
+}
+
+div {
+    &::selection{
+        background-color: #e3b358 !important;
+        color: #000000;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+/*VIDEOFORM - Contact Us form*/
+
+.video-form {
+    margin-bottom: 100px;
+}
+
+.heading-title {
+    margin-bottom: 50px;
+}
+
+
+
+
+.YT-video {
+    iframe {
+        width: 550px;
+        height: 440px;
+    }
+}
+
+.form-send {
+    background-color: #56c4a8 !important;
+    width: 100px;
+    border: none !important;
+}
+
+@media screen and (max-width: 767px) {
+    .form-send {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .video-form {
+        form {
+            margin-top: 10px;
+        }
+    }
+    .YT-video {
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .YT-video {
+        iframe {
+            width: 465px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .YT-video {
+        iframe {
+            width: 348px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .YT-video {
+        iframe {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,236 @@
+$kaushan-font: 'Kaushan Script';
+$montserrat-font: 'Montserrat', sans-serif;
+$roboto-font: 'Roboto', sans-serif;
+$title-color: #333333;
+
+$medium: 992px;
+
+.footer {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    background-color: #f8f8f8;
+}
+
+
+.footer {
+    .col-md-5 {
+        padding: 0;
+    }
+    
+}
+
+.footer-blocks {
+
+    .footer-logo {
+        padding-bottom: 20px;
+        h2 {
+        font-family: $montserrat-font;
+        font-weight: 700;
+        color: #cccccc;
+        font-size: 46px;
+        }
+    }
+    .footer-text {
+        padding-bottom: 20px;
+        p {
+            font-family: $roboto-font;
+            font-size: 15px;
+            font-weight: 400;
+            color: #999999;
+        }
+    }
+    .footer-followers {
+        font-family: $montserrat-font;
+        font-size: 14px;
+        color: #333333;
+        font-weight: 400;
+        padding-bottom: 15px;
+        span {
+            font-weight: 700 !important;
+        }
+        &:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #e5e5e5;
+
+            margin-top: 20px;
+        }
+    }
+    .footer-follow-us {
+        padding-bottom: 40px;
+        span {
+            font-family: $roboto-font;
+            font-size: 15px;
+            color: #999999;
+            font-weight: 300;
+            font-style: italic;
+        }
+        i {
+            color: #95e1d3;
+            padding-left: 14px;
+        }
+    }
+    .footer-subscribe-email {
+        input {
+            height: 40px;
+            width: 229px;
+            border: 1px solid #e7e7e7;
+            &::placeholder {
+                color: #cccccc;
+                padding-left: 12px;
+            }
+        }
+        form {
+            display: flex;
+        }
+        .footer-subsc-btn {
+            width: 150px;
+            height: 40px;
+            background-color: #95e1d3;
+            color: #fff;
+            padding: 0;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+  
+}
+
+.footer-blocks {
+    
+    .footer-title {
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-family: $montserrat-font;
+        color: #333333;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+}
+
+/*Second block - Blog*/
+
+.footer-blogs {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+    padding-top: 20px;
+    .footer-blogs-item {
+        display: flex;
+        padding-bottom: 30px;
+        .footer-blog-info{
+            padding: 5px 20px;
+            .footer-blog-name {
+                font-family: $montserrat-font;
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 1.4;
+                a {
+                    color: #333333;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                }
+            }
+            .footer-blog-date {
+                font-family: $roboto-font;
+                font-size: 13px;
+                font-style: italic;
+                font-weight: 300;
+                a {
+                    color: #999999;
+                }
+            }
+        }
+    }
+}
+
+/*Instagram*/
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    .instagram-item {
+        flex: 1 1 0;
+        border: 1px solid #fff;
+        width: 33.333333%;
+        img {
+            display: block;
+        }
+    }
+    .instagram-viewMore {
+        padding-top: 10px;
+        font-family: $roboto-font;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: italic;
+        a {
+            color: #333333;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: $large-resol) {
+    
+}
+
+
+
+@media screen and (max-width: $medium-resol) {
+    .footer-blocks{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-blocks {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: $small-resol) {
+    .footer-blocks {
+        margin-left: 30px;
+        .footer-logo {
+            h2 {
+                font-size: 32px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: $extra_small-resol) {
+    .footer-blocks {
+        width: 80%;
+        margin-left: 30px;
+        
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 298px) {
+    .footer-blocks {
+        .footer-blogs {
+            .footer-blogs-item {
+                .footer-blog-info {
+                    .footer-blog-name {
+                        a {
+                            font-size: 9px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/src/sass/main.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f5f6f136a6.js"></script>
+    <!-- AJAX -->
+    <script src="src/js/ajax.js"></script>
+
+    <title>SharkCode - Home</title>
+</head>
+<body>
+    <header class="header fixed-top ">
+        <nav>
+          
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">SharkCode</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+            <div class="collapse navbar-collapse nav-menu" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active lang" href="/" key="about">Home</a>
+                <a class="nav-item nav-link active lang" href="#about_us" key="about">About</a>
+                <a class="nav-item nav-link lang" href="#works" key="work">Work</a>
+                <a class="nav-item nav-link lang" href="#contact" key="contact">Contact</a>
+                <a class="nav-item nav-link lang" href="#blog" key="blog">Blog</a>
+              </div>
+              
+              <ul class="header_icon">
+                <li><button type="button" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                  
+                  <!-- Modal -->
+              </ul>
+              <button class="translate" id="en">EN</button>
+              <button class="translate" id="ua">UA</button>
+
+              
+            </div>
+          </nav>
+        </nav>
+  </header>
+
+  <section class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="src/images/hero_slider_1.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="src/images/hero_slider_2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="src/images/hero_slider_3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section>
+
+  <section class="about-us" id="about_us">
+        <div class="container">
+          <div class="heading-title text-center mx-auto">
+            <span class="lang" key="service">Service</span>
+            <h2 class="lang" key="story_about_us">Story About Us</h2>
+            <hr class="mx-auto lang"  >
+            <p class="lang" key="service-text">The riba text site will help a designer, typewriter,
+               webmaster to generate several paragraphs of more or less meaningful fish text in Ukrainian,
+                and a novice speaker to hone the habit of public speaking at home. When creating the generator,
+                 we used an unknown universal speech code. The text is generated in paragraphs randomly from two to ten sentences in a paragraph,
+                  which allows you to make the text more attractive and lively for visual and auditory perception. </p>
+          </div>
+
+        </div>
+  </section>
+
+  <section id="works">
+    <div class="container">
+      <div class="heading-title text-center mx-auto">
+        <span class="lang" key="what_we_do">What we Do</span>
+        <h2 class="lang" key="some_work">Some of our work</h2>
+        <hr class="mx-auto">
+        <p class="lang" key="some_work_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. </p>
+      </div>
+    </div>
+    <div class="works">
+      <div class="row">
+
+        <div class="col-xs-3 col-sm-1 col-md-3 works-column p-0">
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_1.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang" key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_2.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang"  key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-1 col-md-3 works-column p-0">
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_3.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang"  key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_4.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang"  key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-1 col-md-3 works-column p-0">
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_5.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang"  key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-3 col-sm-1 col-md-3 works-column p-0">
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_6.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang"  key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+          <div class="works-item">
+            <img class="works-img" src="/src/images/works/work_7.png" alt="">
+            <div class="works-info">
+              <div class="works-title lang"  key="creative_design">Creatively designed</div>
+              <div class="works-text">Lorem Ipsum dolor sit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="">
+  <div class="container">
+    <div class="reviews">
+
+      <div class="reviews-image">
+          <img src="src/images/clients/client_1.png">
+      </div>
+      <div class="reviews-items">
+        <h4 class="reviews-text lang" key="reviews_quote">“On the other hand, broad active consultation plays an important role in shaping the direction of progressive development.”</h4>
+        <span class="reviews-author">Joshua Earle</span>          
+      </div>
+
+  </div>
+</div>
+</div>
+</section>
+
+  <section class="video-form" id="contact">
+    <div class="container">
+      <div class="heading-title text-center mx-auto">
+        <span class="lang" key="what_we_do">Contact Us</span>
+        <h2 class="lang" key="story_about"></h2>
+        <hr class="mx-auto">
+        
+      </div>
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="YT-video">
+                    <iframe
+                    src="https://www.youtube.com/embed/1wfeqDyMUx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <form action="" method="post" id="ajax_form">
+                    <div class="form-group">
+                      <input type="inputFirstName" name="firstname" class="form-control" id="inputFirstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="inputLastName" name="lastname" class="form-control" id="inputLastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="inputPhone" name="phonenumber" class="form-control" id="inputPhone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                      <input type="inputEmail" name="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                    <button type="button" id="btn" value="send" class="btn btn-primary form-send lang" key="send-form">Send</button>
+                  </form>
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+
+          <div class="footer-blocks d-flex">
+            <div class="col-md-5">
+              <div class="footer-block">
+                <div class="footer-logo footer-title"><h2>SharkCode</h2></div>
+                <div class="footer-text">
+                  <p class="lang" key="footer_text">Lorem ipsum is the name of the classic text "fish".
+                    "Fish" is a word from the jargon of designers, denoting conditional, often meaningless text inserted into the layout of the page. Lorem ipsum is a distorted passage from Cicero's philosophical treatise "On the Limits of Good and Evil", written in Latin in 45 BC. This text was first used for a set of typefaces by an unknown printer in the 16th century </p>
+                </div>
+                <div class="footer-followers">
+                  <span>15<span class="lang" key="k">k</span> </span> <span class="lang" key="followers">followers</span>
+                </div>
+                <div class="footer-follow-us">
+                    <span class="lang" key="follow_us">Follow Us:</span>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-solid fa-globe"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="footer-subscribe-email">
+<!--
+                    <form action="#">
+                    <input type="text" placeholder="Your Email...">
+                    <button class="footer-subsc-btn">Subscribe</button>
+                  </form>
+-->
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="footer-block">
+              <div class="footer-title" id="blog">
+                <span class="lang" key="blogs">Blogs</span>
+              </div>
+              <div class="footer-blogs">
+                <div class="footer-blogs-item">
+                  <a href="#"><img src="/src/images/footer/footer-blog_1.png"></a>
+                  <div class="footer-blog-info">
+                    <div class="footer-blog-name"><a href="#">Lorem ipsum dolor sit amet, 
+                      consectetur adipiscing</a></div>
+                      <div class="footer-blog-date">Jan 9, 2016</div>
+                  </div>
+                </div>
+                  
+                <div class="footer-blogs-item">
+                  <a href="#"><img src="/src/images/footer/footer-blog_2.png"></a>
+                  <div class="footer-blog-info">
+                    <div class="footer-blog-name"><a href="#">Lorem ipsum dolor sit amet, 
+                      consectetur adipiscing</a></div>
+                      <div class="footer-blog-date">Jan 9, 2016</div>
+                  </div>
+                </div>
+
+                <div class="footer-blogs-item">
+                  <a href="#"><img src="/src/images/footer/footer-blog_3.png"></a>
+                  <div class="footer-blog-info">
+                    <div class="footer-blog-name"><a href="#">Lorem ipsum dolor sit amet, 
+                      consectetur adipiscing</a></div>
+                      <div class="footer-blog-date">Jan 9, 2016</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <div class="col-md-3">
+        <div class="footer-block">
+          <div class="footer-title">
+            <span class="lang" key="identification">Identification</span>
+          </div>
+          <div id="result_form">
+            
+          </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="src/js/header-scroll.js"></script>
+    <script src="src/js/multilang.js"></script>
+
+    <script>
+      var today = new Date();
+        var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
+      
+        function setCookie(name, value)
+        {
+          document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
+        }
+      function putCookie(form)
+                      //this should set the UserName cookie to the proper value;
+        {
+         setCookie("userName", form[0].email.value);
+      
+          return true;
+        }
+      
+        </script>
+    
+</body>
+</html>
